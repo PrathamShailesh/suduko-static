@@ -11,7 +11,7 @@ body{
 }
 
 .background{
-    background-image: url('/assets/First_page.jpg');
+    background-image: url('./assets/First_page.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
