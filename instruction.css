@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    font-family: 'Righteous', sans-serif;
+    background-color: rgb(180, 164, 164);
+}
+
+.back{
+    display: inline-block;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+header{
+    text-align: center;
+    font-size: 2em;
+}
+
+.box{
+    border: 1px black solid;
+    font-size: 2em;
+    padding: 10px;
+}
+

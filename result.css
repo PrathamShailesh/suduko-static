@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Righteous', sans-serif;
+    
+    
+}
+.background{
+     background-image: url("/assets/result_page.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+     background-position: center;
+}
+
+.win_text{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* width: 300px; */
+}
+
+.win_text h2{
+    width: 650px;
+    font-size: 2.3em;
+    letter-spacing: 5px;
+    background-color:rgba(217, 217, 217, 0.5);
+    
+    border-radius: 20px;
+}
+
+.score{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content:center;
+
+    font-size: 1.3em;
+    /* border: 1px red solid; */
+}
+
+.new{
+    display: flex;
+    justify-content: space-around;
+
+    width: 90%;
+}
+
+.score h2{
+    background-color:rgba(181, 149, 149, 0.5);
+    
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+
+    
+}
+
+ .buttons .nn{
+    background-color: rgb(24, 213, 255);
+    border-radius: 50px;
+    padding: 0 20px;
+    width: 10%;
+    text-align: center;
+    box-shadow: -3px 5px 6px #000;
+    
+}
+
+.neww{
+    display: flex;
+    justify-content: space-around;
+
+    width: 79%;
+
+}

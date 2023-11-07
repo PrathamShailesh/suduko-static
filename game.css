@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    font-family: 'Righteous', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/Game_page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    /* margin-top: -90px; */
+    text-align: center;
+
+}
+
+header h1{
+    /* font-size: 11.25em; */
+    font-size: 7vw;
+    -webkit-text-stroke: 0.3px #09a52b;;
+    background: linear-gradient(to bottom,rgb(0, 249, 54), rgb(29, 251, 77),rgb(12, 219, 26), #000000);
+    stroke: green;
+    -webkit-background-clip: text;
+    color: transparent; 
+
+}
+
+hr{
+    border: 1px grey solid;
+    width: 60vw;
+    margin-top: -50px;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+    color: red;
+}
+
+.board{
+    border: 3px black solid;
+    height: 40em;
+    width:40em ;
+}
+.game{
+    display: flex;
+    justify-content: center;
+
+}
+
+.numbers{
+    display:flex;
+    justify-content: center;
+}
+
+.number{
+    border: 3px white solid;
+    height: 50px;
+    width:40em ;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.quit{
+    display:inline-block;
+    /* align-items: center; */
+    background-color: rgb(9, 196, 237);
+    padding: 0px 20px;
+    border-radius: 25px;
+    margin: 50px 80px;
+}
+
+.quite_icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quite_icon .back{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.number div{
+    border: 1px white solid;
+    width: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(9,11.12%);
+    /* grid-template-columns: repeat(9,71.2px); */
+}
+
+.board div{
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
