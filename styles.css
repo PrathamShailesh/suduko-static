@@ -123,7 +123,7 @@ a{
     #name{
         width: 30vw;
         height: 8vh;
-        border-radius: 50px;
+        border-radius: 70px;
         
     }
 
@@ -143,5 +143,9 @@ a{
     .box{
         border-radius: 50px;
     }
+    ::placeholder {
+        font-size: 26px;
+    }
+
 
 }
