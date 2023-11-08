@@ -112,6 +112,10 @@ a{
     body{
         overflow: hidden;
     }
+
+    header h1{
+        padding-top: 10%;
+    }
     
     .background{
         height: 100vh;
@@ -121,6 +125,23 @@ a{
         height: 8vh;
         border-radius: 50px;
         
+    }
+
+    .play-button img{
+        height: 10%;
+        margin-top: 20%; 
+    }
+    .play h2{
+        color: white;
+        font-size: 4em;
+        letter-spacing: 8px;
+    }
+
+    .last{
+        font-size: 25px;
+    }
+    .box{
+        border-radius: 50px;
     }
 
 }
