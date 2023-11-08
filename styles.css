@@ -3,11 +3,6 @@ body{
     font-family: 'Righteous', sans-serif;
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-    /* background-image: url('/assets/First_page.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
-
 }
 
 .background{
@@ -17,20 +12,14 @@ body{
     background-position: center;
     width: 100%;
     height: 130vh;
-    /* margin: -120px 0; */
     padding: 0;
-
 }
 
 header{
     text-align: center;
-
-    /* border: 1px red solid; */
-
 }
 
 header h1{
-    /* font-size: 11.25em; */
     font-size: 150px;
     -webkit-text-stroke: 0.3px #09a52b;;
     background: linear-gradient(to bottom,rgb(0, 249, 54), rgb(29, 251, 77),rgb(12, 219, 26), #000000);
@@ -57,10 +46,14 @@ input{
     align-items: center;
 }
 
+.nickname{
+    margin-top: 50px;
+}
+
 #name{
-    height: 3.4em;
-    width: 20em;
-    border-radius: 25px;
+    height: 5.4em;
+    width: 30em;
+    border-radius: 30px;
     margin-top: 40px;
     border: none;
     padding-left: 20px;
@@ -68,25 +61,25 @@ input{
 
 .play{
     text-align: center;
-    /* border: #09a52b 5px solid;
-     */
-     line-height: 10px;
-    
+     line-height: 10px;   
 }
+
 
 .play-button img{
     height: 100px;
     margin-top: 10%;
-    
-
-
-    
+    margin-bottom: 30px;
 }
 
 .play h2{
     color: white;
     font-size: 2em;
     letter-spacing: 8px;
+    background-color: #09a52b;
+    display: inline;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: #000000 -6px 6px 10px ;
 }
 
 .box{
@@ -94,8 +87,6 @@ input{
     display: inline-block;
     padding: 0 10px;
     border-radius: 40px;
-    /* height: 50px; */
-    /* align-items: center; */
     margin: 20px 50px;
 }
 
@@ -143,9 +134,9 @@ a{
     .box{
         border-radius: 50px;
     }
+
     ::placeholder {
         font-size: 26px;
     }
-
 
 }
